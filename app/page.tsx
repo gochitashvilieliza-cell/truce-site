@@ -9,15 +9,15 @@ const body = Newsreader({ subsets: ["latin"], style: ["normal", "italic"] });
 // Edit everything here. Tokenomics values must match what you really launch with.
 const CFG = {
   ticker: "$TRUCE",
-  ca: "REPLACE_WITH_CONTRACT_ADDRESS",
+  ca: "2y2pohCvd4YixveJFh8dT56cyHZ3oJj5QceCYJajpump",
   pair: "", // DexScreener pair address; when filled, a live chart appears
   buy: "https://pump.fun/",
-  x: "#",
+  x: "https://x.com/trucetokenworld",
   tg: "#",
   supply: "1,000,000,000",
   tax: "0%",
-  liquidity: "Bonding curve on pump.fun (edit)",
-  mint: "Revoked (edit)",
+  liquidity: "Bonding curve on pump.fun ",
+  mint: "Revoked ",
 };
 
 const clamp = (n: number) => Math.min(1, Math.max(0, n));
